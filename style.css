@@ -236,6 +236,20 @@
   }
 }
 
+/* Footer phone + email links */
+.footer-contact,
+.footer-contact:link,
+.footer-contact:visited{
+  color: #000;               /* default black */
+  text-decoration: none;     /* no underline */
+  transition: color .15s ease;
+}
+
+.footer-contact:hover,
+.footer-contact:focus{
+  color: #ff28a8;            /* hover pink */
+  text-decoration: none;     /* keep no underline on hover */
+}
 
 /* ————— CTA SECTION ————— */
 .cta-section {
@@ -414,6 +428,13 @@
 .footer-bottom .design-credit a:hover {
   color: #09096A;
 }
+/* Use the same accent for the icon and the link */
+.part-of-brand { color: #ff28a8; }                  /* your heart colour */
+.part-of-brand a { color: inherit;                  /* link = same colour */
+                   text-decoration-color: currentColor; }
+.part-of-brand i { color: currentColor; }           /* icons follow the same colour */
+.part-of-brand a:hover { opacity: .85; }            /* subtle hover, keeps colour */
+
 
 /* ---------- FAQ section ---------- */
 #faq { background: #fff; }
