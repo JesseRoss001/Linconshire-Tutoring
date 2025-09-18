@@ -1,0 +1,6 @@
+# robots.txt for https://lincolnshiretutoring.com/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lincolnshiretutoring.com/sitemap.xml
