@@ -207,6 +207,116 @@
   color:#47515e;
 }
 
+/* TUTOR SPOTLIGHT SECTION*/
+
+.tutor-spotlight-section {
+  background-color: #ffffff;
+}
+
+.tutor-spotlight-image-wrapper {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 18px 50px rgba(9, 9, 106, 0.15);
+}
+
+.tutor-spotlight-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tutor-spotlight-badge {
+  position: absolute;
+  left: 1.75rem;
+  bottom: 1.75rem;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 0.8rem 1.3rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  max-width: 260px;
+}
+
+.tutor-badge-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.tutor-badge-text {
+  font-size: 0.8rem;
+  color: var(--text-dark);
+}
+
+/* Right content */
+.tutor-spotlight-heading {
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.tutor-highlight {
+  color: var(--accent-color);
+}
+
+.tutor-spotlight-lead {
+
+  color: var(--text-dark);
+  max-width: 620px;
+}
+
+/* Stats row */
+.tutor-spotlight-stats .tutor-stat {
+  padding-right: 0.5rem;
+}
+
+.tutor-stat-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6c757d;
+  margin-bottom: 0.15rem;
+}
+
+.tutor-stat-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.1rem;
+}
+
+.tutor-stat-text {
+  font-size: 0.85rem;
+  color: var(--text-dark);
+}
+
+/* CTA button in this section */
+.tutor-spotlight-cta {
+  margin-top: 0.5rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 991.98px) {
+  .tutor-spotlight-heading {
+    font-size: 1.8rem;
+  }
+  .tutor-spotlight-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .tutor-spotlight-image-wrapper {
+    border-radius: 18px;
+  }
+  .tutor-spotlight-badge {
+    left: 1.1rem;
+    bottom: 1.1rem;
+    padding: 0.7rem 1rem;
+  }
+}
+
 /* --------------------------------------------------------------
    BREAK-POINT TWEAKS
    -------------------------------------------------------------- */
@@ -853,3 +963,5 @@
     transform: scale(1); 
   }
 }
+
+

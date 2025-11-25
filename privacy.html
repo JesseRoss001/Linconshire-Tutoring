@@ -60,15 +60,16 @@
 
 <body>
 
-<!-- =================================
-     STICKY NAVIGATION
-===================================== -->
+<!-- NAVBAR (same structure as courses page, only active link changed) -->
 <nav class="navbar navbar-expand-lg navbar-custom sticky-top py-3">
   <div class="container">
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="images/lincolnshire-tutoring-logo-icon.png" alt="Lincolnshire Tutoring Logo" width="50" height="50" class="me-2">
+      <img src="images/lincolnshire-tutoring-logo.jpg"
+           alt="Lincolnshire Tutoring Logo"
+           width="50" height="50"
+           class="me-2">
       <span class="fw-bold">Lincolnshire Tutoring</span>
     </a>
 
@@ -86,10 +87,8 @@
     </button>
 
     <!-- Links + CTA -->
-   <!-- Nav Links + CTA -->
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav mx-auto align-items-center">
-
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
@@ -99,18 +98,22 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="courses.html">Courses & Pricing</a>
+          <a class="nav-link" href="find-tutors-lincolnshire-uk.html">Our Tutors & Pricing</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="courses.html">Courses</a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
-
       </ul>
 
       <!-- CTA Button -->
       <a href="contact.html"
-         class="btn btn-outline-dark btn-mentor d-flex align-items-center ms-3">
+         class="btn btn-outline-dark btn-mentor d-flex align-items-center ms-3"
+         onclick="return gtag_report_conversion('contact.html');">
         Book Your First Lesson
       </a>
     </div>
@@ -270,7 +273,7 @@
           <span class="ms-2 h5 mb-0">Lincolnshire Tutoring</span>
         </p>
         <p class="footer-desc text-muted mb-3">
-                    Lincolnshire’ leading online tutors for GCSE & A-Level: personalised Mathematics & Physics tutoring, Chemistry, Biology, Coding & English exam prep with expert-led AQA, OCR & Edexcel sessions.
+                    Lincolnshire’ leading online tutors for GCSE & A-Level: personalised Mathematics & Physics tutoring, Chemistry, Biology, Economics & English exam prep with expert-led AQA, OCR & Edexcel sessions.
 
         </p>
          
@@ -286,6 +289,7 @@
         <ul class="list-unstyled footer-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="find-tutors-lincolnshire-uk.html">Our Tutors</a></li>
           <li><a href="courses.html">Courses</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -305,8 +309,8 @@
       <h3 class="footer-title h6">Contact Us</h3>
         <p class="mb-2">
   <i class="bi bi-telephone me-2"></i>
-  <a href="tel:+447367292269" class="footer-contact" aria-label="Call Lincolnshire Tutoring">
-    +44 7367 292269
+  <a href="https://wa.me/447480231362" class="footer-contact" aria-label="Call Lincolnshire Tutoring">
+    +44 7480 231362
   </a>
 </p>
 <p class="mb-2">
@@ -315,11 +319,7 @@
     lincolnshiretutoring@gmail.com
   </a>
 </p>
-
-       
       </div>
-  
-
     </div>
   </div>
 
