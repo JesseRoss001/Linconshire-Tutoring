@@ -488,3 +488,7 @@
   max-width: 850px;   /* tweak width if you’d like it wider/narrower */
   margin: 0 auto;     /* ← this does the actual centring */
 }
+
+.course-cta-text {
+  color: #FF28A8;
+}
